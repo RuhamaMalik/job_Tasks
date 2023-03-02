@@ -15,15 +15,6 @@ const PopupComponent = ({ visible, onClose }) => {
       <View style={styles.container}>
         <View style={styles.popup}>
           <View style={styles.parent}>
-            {/* <View>
-              {fields.map((item, key) => (
-
-                <Text key={key}> {item} </Text>
-                
-                )
-              )}
-
-            </View> */}
             <View>
               {fields.map((item, key) => (
                 <Text
@@ -67,7 +58,6 @@ const PopupComponent = ({ visible, onClose }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: 'rgba(0,0,0,0.5)',
     justifyContent: 'center',
     alignItems: 'center',
   },
